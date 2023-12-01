@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="../css/login_styles.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/is_authentificated.js"></script>
+    <script src="../js/registration.js"></script>
+</head>
+<body style="background-image: url('../images/background.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh; background-position: center center;">
+<div class="container">
+    <form id="form">
+        <h2>REGISTRATION</h2>
+        <label for="login">Username</label>
+        <input name="login" id="login" placeholder="Create your username" type="text" autofocus required>
+        <br/><br/>
+        <label for="password">Password</label>
+        <input name="password" id="password" placeholder="Create your password" type="password" required>
+        <br/>
+        <p class="error" id="error" style="display: none; "></p>
+        <br/>
+        <button name="createButton" id="createButton" value="create" >Register</button>
+        <br/>
+        <p class="registration"><a href="login.html">Have an account?</a></p>
+    </form>
+</div>
+</body>
+</html>
