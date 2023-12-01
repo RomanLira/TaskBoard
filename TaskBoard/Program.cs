@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(connection, b=>b.MigrationsAssembly("Web")));
+builder.Services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(connection, b=>b.MigrationsAssembly("TaskBoard")));
 builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LStsMOtOa7ejkg9NRyvuBmPudd9MPt+m44USOfeRTxqoXh6vHUnWmvJBg+DXcMaZiHVUVB/xNX/RGJVSRzBaAA==",
+  "dgSpecHash": "1uiikUstvSbYkvUhzyqSwilEli2FuH500ADpxh39mDG2h9W6lD4kt9KyuqgOjRBJlgszI+nmNRXdOXARnnBINA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Projects\\TaskBoard\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Projects\\TaskBoard\\TaskBoard\\TaskBoard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
